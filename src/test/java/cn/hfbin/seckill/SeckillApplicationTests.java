@@ -41,7 +41,7 @@ public class SeckillApplicationTests {
 		List<GoodsBo> goodsBos = goodsMapper.selectAllGoodes();
 
 		for (GoodsBo goodsBo : goodsBos){
-			log.info(goodsBo+"");
+			//log.info(goodsBo+"");
 		}
 	}
 }
